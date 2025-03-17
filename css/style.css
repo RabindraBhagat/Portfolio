@@ -11063,9 +11063,14 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-third {
-  width: 60%;
+  width: 100%;
   position: relative;
   z-index: -1;
+  background-size: contain; /* Ensures the entire image fits within the div */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+  height: 500px; /* Adjust the height as needed */
+  width: 500px;
 }
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
   position: absolute;
